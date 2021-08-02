@@ -1,1 +1,13 @@
-Just some random words to test how  branches work with github
+Just some random words to test how  branches work in github
+
+%                   %  
+ %                 %   
+  %               %
+   %             %
+    %           %
+     %         %
+      %       %
+       %     %
+        %   %
+         % %
+          %
