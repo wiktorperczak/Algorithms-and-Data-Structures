@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-const int n = 5;
+const int n = 7;
 int odw[n+1][n+1] = {0};
 vector<vector<int>>g(n+1);
 vector<int>stos;
