@@ -7,7 +7,7 @@ vector<pair<int, int>>tree(2*N);
 
 void insert(int i, int l, int r, int a, int b, int value, int time) {
     if(l>=a && r<=b) {
-        tree[i] = make_pair(value, time);
+        tree[i] = {value, time};
         return;
     }
     int mid = (l+r)/2;

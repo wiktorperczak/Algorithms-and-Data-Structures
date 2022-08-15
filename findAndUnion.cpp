@@ -34,7 +34,7 @@ int main() {
  
 	int n;
 	cin >> n;
- 
+	
 	dsu d(n);
     
     int x = 1;

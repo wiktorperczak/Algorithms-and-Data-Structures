@@ -36,12 +36,12 @@ int query(int i, int l, int r, int a, int b) {
     if(a<=mid) ans = max(ans, query(i*2, l, mid, a, b));
     if(b>mid) ans = max(ans, query(i*2+1, mid+1, r, a, b));
 
-    return ans; 
+    return ans;
 }
 
 int main() {
     build(1, 0, N-1);
-    for(int i=0; i<(int)tree.size(); i++) 
+    for(int i=0; i<(int)tree.size(); i++)
         cout<<tree[i] << " ";
     int q;
     cin >> q;

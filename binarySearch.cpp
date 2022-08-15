@@ -6,7 +6,7 @@ int tab[N];
 
 int binary(int x, int l, int r) {
     int mid = (l+r)/2;
-        
+
     if(tab[mid]>x)
         return binary(x, l, mid-1);
     else if(tab[mid] < x)
